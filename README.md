@@ -5,11 +5,11 @@
 ## 安装
 
 ```bash
-# 通过 skills.sh
-npx skillsadd <owner>/self-rescue
+# 安装全部 skills
+npx skills add https://github.com/s33you/self-rescue --all
 
-# 或手动安装
-# 将 .claude/skills/ 目录复制到你的项目或 ~/.claude/skills/ 中
+# 或只安装某个 skill
+npx skills add https://github.com/s33you/self-rescue --skill start
 ```
 
 ## 使用

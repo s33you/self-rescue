@@ -1,5 +1,5 @@
 ---
-name: session
+name: rescue:session
 description: 保存本次对话的探索发现摘要，生成会话记录文件。触发词：保存、记录、总结本次、session
 argument-hint: [可选：本次会话的主题标签]
 ---

@@ -1,5 +1,5 @@
 ---
-name: reflect
+name: rescue:reflect
 description: 用户分享经历或故事后，帮助提取其中隐含的技能、模式和洞察。触发词：反思、复盘、我之前做过、我的经历
 argument-hint: [可选：简要描述你想反思的经历]
 ---

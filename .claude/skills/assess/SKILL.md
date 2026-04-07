@@ -1,5 +1,5 @@
 ---
-name: assess
+name: rescue:assess
 description: 阶段性综合评估，回顾所有积累数据，分析核心优势、独特技能组合和能力差距。触发词：评估、分析、我的优势是什么、核心能力
 argument-hint:
 ---

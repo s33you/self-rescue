@@ -1,5 +1,5 @@
 ---
-name: start
+name: rescue:start
 description: 零门槛开始探索。不需要任何准备，随便聊就行，系统自动从对话中识别技能线索并引导深入。触发词：开始、start、聊聊、不知道从哪开始
 argument-hint:
 ---

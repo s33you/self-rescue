@@ -1,5 +1,5 @@
 ---
-name: explore
+name: rescue:explore
 description: 按维度引导用户探索自身技能和能力。用法：/explore 技术能力、/explore 软技能、/explore 知识领域 等。触发词：探索、挖掘、聊聊我的
 argument-hint: [维度名称，如：技术能力 / 软技能 / 知识领域 / 创作能力 / 生活技能]
 ---

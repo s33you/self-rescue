@@ -1,5 +1,5 @@
 ---
-name: status
+name: rescue:status
 description: 查看自我发掘的探索进度总览，了解哪些维度已探索、哪些空白，获得下一步建议。触发词：进度、状态、探索到哪了、下一步
 argument-hint:
 ---

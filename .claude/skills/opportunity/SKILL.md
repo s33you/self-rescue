@@ -1,5 +1,5 @@
 ---
-name: opportunity
+name: rescue:opportunity
 description: 基于当前能力画像，探索和评估潜在的变现方向与职业机会。触发词：变现、赚钱、职业方向、机会、我能做什么
 argument-hint: [可选：感兴趣的方向，如：自由职业 / 副业 / 转行]
 ---

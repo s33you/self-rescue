@@ -10,8 +10,9 @@ argument-hint: [可选：简要描述你想反思的经历]
 
 ## 准备阶段
 
-1. 读取 `profile/experiences.md`，了解已记录的经历（避免重复）
-2. 读取 `profile/skills.md`，了解已发现的技能（寻找新连接）
+1. **确保数据文件存在**（如不存在则创建——参照 `/start` skill 中的初始化模板）
+2. 读取 `profile/experiences.md`，了解已记录的经历（避免重复）
+3. 读取 `profile/skills.md`，了解已发现的技能（寻找新连接）
 
 ## 对话阶段
 

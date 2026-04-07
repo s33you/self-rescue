@@ -10,7 +10,9 @@ argument-hint:
 
 ## 数据收集
 
-读取以下所有文件：
+1. **确保数据文件存在**（如不存在则创建——参照 `/start` skill 中的初始化模板）
+
+2. 读取以下所有文件：
 - `profile/skills.md` — 已发现的全部技能
 - `profile/experiences.md` — 所有关键经历
 - `profile/values.md` — 价值观与驱动力

@@ -11,19 +11,21 @@ argument-hint:
 
 ## 执行步骤
 
-1. **读取所有 profile 文件**，了解已积累的内容：
+1. **确保数据目录存在**（如不存在则创建 `profile/` 和 `exploration/sessions/` 目录，以及所需的数据文件——参照 `/start` skill 中的初始化模板）
+
+2. **读取所有 profile 文件**，了解已积累的内容：
    - 读取 `profile/skills.md` — 已发现的技能
    - 读取 `profile/experiences.md` — 已记录的经历
    - 读取 `profile/values.md` — 已明确的价值观
    - 读取 `profile/strengths.md` — 核心优势总结
 
-2. **读取探索记录**：
+3. **读取探索记录**：
    - 列出 `exploration/sessions/` 下的所有文件，了解已进行的探索次数
 
-3. **读取技能框架**：
+4. **读取技能框架**：
    - 读取 `insights/skill-map.md`，对照框架判断哪些维度已覆盖
 
-4. **生成进度报告**，包含以下内容：
+5. **生成进度报告**，包含以下内容：
 
    ### 📊 探索进度
    - 已进行的探索会话次数

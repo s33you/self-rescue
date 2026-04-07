@@ -10,7 +10,9 @@ argument-hint: [可选：本次会话的主题标签]
 
 ## 执行步骤
 
-1. **回顾本次对话**，提取以下内容：
+1. **确保数据目录和文件存在**（如不存在则创建 `profile/`、`exploration/sessions/` 目录和所需数据文件——参照 `/start` skill 中的初始化模板）
+
+2. **回顾本次对话**，提取以下内容：
    - 本次探索的维度/主题
    - 新发现的技能（列表）
    - 新记录的经历（如有）
@@ -18,12 +20,12 @@ argument-hint: [可选：本次会话的主题标签]
    - 用户表达的价值观或偏好（如有）
    - 待下次深入的线索
 
-2. **读取已有文件**，确认哪些内容是本次新增的：
+3. **读取已有文件**，确认哪些内容是本次新增的：
    - 读取 `profile/skills.md`
    - 读取 `profile/experiences.md`
    - 列出 `exploration/sessions/` 下已有的文件
 
-3. **生成会话记录文件**，写入 `exploration/sessions/` 目录：
+4. **生成会话记录文件**，写入 `exploration/sessions/` 目录：
    - 文件名格式：`YYYY-MM-DD.md`（使用当天日期）
    - 如果同一天已有记录，使用 `YYYY-MM-DD-2.md`
 
@@ -54,11 +56,11 @@ argument-hint: [可选：本次会话的主题标签]
    - 建议2
    ```
 
-4. **确认 profile 文件已更新**：
+5. **确认 profile 文件已更新**：
    - 如果本次对话中新发现的技能还没有写入 `profile/skills.md`，现在补上
    - 如果有新经历还没写入 `profile/experiences.md`，现在补上
 
-5. **向用户展示摘要**，并提示：
+6. **向用户展示摘要**，并提示：
    - 「本次记录已保存到 exploration/sessions/YYYY-MM-DD.md」
    - 「累计已进行 X 次探索」
    - 如果积累足够，建议调用 `/assess` 进行阶段性评估

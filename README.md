@@ -47,6 +47,12 @@ npx skills add https://github.com/s33you/self-rescue --skill start
 |------|------|------|
 | `/plan` | 针对某个方向深化方案，从战略推演到落地执行 | `/plan 技术咨询` |
 
+### 第五层：持续成长（执行中）
+
+| 指令 | 用途 | 示例 |
+|------|------|------|
+| `/grow` | 成长中心：学习目标、随时记录、定期回顾 | `/grow 今天学了用Figma做原型` |
+
 ### 辅助工具
 
 | 指令 | 用途 |
@@ -66,6 +72,8 @@ npx skills add https://github.com/s33you/self-rescue --skill start
 /opportunity 探索变现方向
                 ↓
 /plan        深化方案（战略推演 → 落地执行）
+                ↓
+/grow        持续成长（设目标 → 记录学习 → 回顾成长）
 
 /status 随时查看进度  |  /session 随时保存发现
 ```
@@ -83,6 +91,10 @@ npx skills add https://github.com/s33you/self-rescue --skill start
 │   ├── strengths.md        # 核心优势总结
 │   └── opportunities.md    # 变现方向分析
 ├── plans/                  # 方案深化文件（每个方向一个）
+├── growth/
+│   ├── goals.md            # 学习目标
+│   ├── log/                # 月度学习记录
+│   └── reviews/            # 定期成长回顾
 └── sessions/               # 每次探索的记录
 ```
 

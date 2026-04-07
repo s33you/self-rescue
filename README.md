@@ -14,8 +14,10 @@ npx skills add https://github.com/s33you/self-rescue --skill start
 
 ## 更新
 
+重新运行安装命令即可获取最新版本：
+
 ```bash
-npx skills update
+npx skills add https://github.com/s33you/self-rescue --all
 ```
 
 ## 使用

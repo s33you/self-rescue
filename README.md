@@ -11,6 +11,13 @@ npx skills add https://github.com/s33you/self-rescue --all
 # 或只安装某个 skill
 npx skills add https://github.com/s33you/self-rescue --skill start
 ```
+
+## 更新
+
+```bash
+npx skills update
+```
+
 ## 使用
 
 **输入 `/start`，然后随便聊就行。**

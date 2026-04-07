@@ -11,13 +11,6 @@ npx skills add https://github.com/s33you/self-rescue --all
 # 或只安装某个 skill
 npx skills add https://github.com/s33you/self-rescue --skill start
 ```
-
-## 更新
-
-```bash
-npx skills update
-```
-
 ## 使用
 
 **输入 `/start`，然后随便聊就行。**
@@ -48,6 +41,12 @@ npx skills update
 | `/assess` | 综合评估核心优势和独特组合 |
 | `/opportunity` | 将能力映射到变现/职业方向 |
 
+### 第四层：方案深化（选定方向后）
+
+| 指令 | 用途 | 示例 |
+|------|------|------|
+| `/plan` | 针对某个方向深化方案，从战略推演到落地执行 | `/plan 技术咨询` |
+
 ### 辅助工具
 
 | 指令 | 用途 |
@@ -65,6 +64,8 @@ npx skills update
 /assess      综合分析核心优势
                 ↓
 /opportunity 探索变现方向
+                ↓
+/plan        深化方案（战略推演 → 落地执行）
 
 /status 随时查看进度  |  /session 随时保存发现
 ```
@@ -81,6 +82,7 @@ npx skills update
 │   ├── values.md           # 价值观与驱动力
 │   ├── strengths.md        # 核心优势总结
 │   └── opportunities.md    # 变现方向分析
+├── plans/                  # 方案深化文件（每个方向一个）
 └── sessions/               # 每次探索的记录
 ```
 

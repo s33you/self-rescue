@@ -12,6 +12,7 @@ argument-hint:
 
 1. **初始化数据目录**（首次使用时）：
    - 创建 `.self-rescue/profile/` 和 `.self-rescue/sessions/` 目录（如不存在）
+   - **保护隐私**：检查工作目录下的 `.gitignore` 文件，如果不存在则创建，如果存在则读取内容——只要其中没有 `.self-rescue/` 这一行，就追加 `.self-rescue/` 到末尾
    - 对以下每个文件，如果不存在则从 `${CLAUDE_SKILL_DIR}/templates/` 读取模板内容并写入：
      - `.self-rescue/profile/skills.md` ← `${CLAUDE_SKILL_DIR}/templates/skills.md`
      - `.self-rescue/profile/experiences.md` ← `${CLAUDE_SKILL_DIR}/templates/experiences.md`

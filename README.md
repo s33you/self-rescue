@@ -1,22 +1,24 @@
-# Self-Rescue —— 自我发掘 Skills 套件
+# Self-Rescue — 自我发掘 Skills 套件
 
 > 一套 Claude Code Skills，通过持续对话帮你系统性地发现核心能力与优势，找到变现和职业发展的方向。
 
 ## 安装
 
-Clone 本仓库到任意目录，用 Claude Code 打开即可使用。所有个人数据由 skills 动态创建，不会入 git。
-
 ```bash
-git clone <repo-url> self-rescue
-cd self-rescue
-# 启动 Claude Code，输入 /start 开始
+# 通过 skills.sh
+npx skillsadd <owner>/self-rescue
+
+# 或手动安装
+# 将 .claude/skills/ 目录复制到你的项目或 ~/.claude/skills/ 中
 ```
 
-## 怎么开始？
+## 使用
 
 **输入 `/start`，然后随便聊就行。**
 
 不需要准备任何东西，不需要知道自己擅长什么。你只管说，AI 会从对话中发现你的能力线索。
+
+所有个人数据自动保存在当前目录的 `.self-rescue/` 下。
 
 ## 可用指令
 
@@ -44,7 +46,7 @@ cd self-rescue
 
 | 指令 | 用途 |
 |------|------|
-| `/status` | 查看探索进度，看看聊到哪了 |
+| `/status` | 查看探索进度 |
 | `/session` | 保存本次对话的发现 |
 
 ## 工作流程
@@ -61,29 +63,19 @@ cd self-rescue
 /status 随时查看进度  |  /session 随时保存发现
 ```
 
-## 项目结构
+## 数据存储
+
+所有个人数据存储在工作目录的 `.self-rescue/` 下，由 skills 自动创建：
 
 ```
-self-rescue/
-├── .claude/skills/         # Skills 定义（入 git）
-│   ├── start/              # 零门槛自然对话入口
-│   ├── explore/            # 按维度深入探索
-│   ├── reflect/            # 经历反思提炼
-│   ├── session/            # 会话记录
-│   ├── assess/             # 综合评估
-│   ├── opportunity/        # 变现方向映射
-│   └── status/             # 进度总览
-├── insights/
-│   └── skill-map.md        # 技能探索框架（入 git）
-├── profile/                # 个人数据（自动创建，不入 git）
-├── exploration/            # 探索记录（自动创建，不入 git）
-├── .gitignore
-└── README.md
+.self-rescue/
+├── profile/
+│   ├── skills.md           # 技能清单
+│   ├── experiences.md      # 关键经历
+│   ├── values.md           # 价值观与驱动力
+│   ├── strengths.md        # 核心优势总结
+│   └── opportunities.md    # 变现方向分析
+└── sessions/               # 每次探索的记录
 ```
 
-## 阶段目标
-
-- **Phase 1：广泛探索** — 用 `/start` 打开话匣子，发现尽可能多的技能线索
-- **Phase 2：深度挖掘** — 用 `/explore` 和 `/reflect` 深入，找到反复出现的模式
-- **Phase 3：方向聚焦** — 用 `/assess` 确定核心优势，用 `/opportunity` 锁定 2-3 个方向
-- **Phase 4：行动计划** — 为选定方向制定具体的变现/发展路径
+建议将 `.self-rescue/` 加入项目的 `.gitignore`。
